@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background:rgb(238, 238, 238);
+    height: 100vh;
+    width: 1000px;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 38px;
+    padding: 20px;
+}
+
+main{
+    align-content: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+footer{
+    position: sticky;
+    background: rgb(102, 102, 102);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}

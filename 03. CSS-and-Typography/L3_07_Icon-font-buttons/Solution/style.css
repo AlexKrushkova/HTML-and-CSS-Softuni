@@ -1,0 +1,23 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+p{
+    border-radius: 5px;
+    padding: 8px;
+
+    width: fit-content;
+}
+
+.first{
+        color : white;
+}
+.p1{
+    background-color: green;
+}
+
+.second{
+    color: white;
+}
+
+.p2{
+    background-color:orange ;
+}
