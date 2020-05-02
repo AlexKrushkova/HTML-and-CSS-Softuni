@@ -1,0 +1,188 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+* :before, * :after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    margin: 1em;
+}
+
+.orange{
+    color: orangered;
+}
+.fa-caret-down{
+    align-items: center;
+}
+
+header nav ul:nth-child(2) li{
+    border-right: 1px solid gray;
+    padding-right: 1em;
+    margin-left: 0em;
+}
+
+.main-image{
+    background: url(images/residential-banner-2.jpg) no-repeat center;
+    color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+.main-image p{
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.main-image {
+    height: 25em;
+    
+}
+
+.main-image h1{
+    font-size: 3em;
+}
+
+.main-image section{
+    padding-top: 5em;
+}
+
+.how-it-works h3{
+    text-align: center;
+}
+
+.how-it-works ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+.how-it-works ul li{
+    text-align: center;
+    width: 15%;
+    margin: 2em;
+}
+
+.how-it-works ul li h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.num{
+    font-size: 2.5em;
+}
+
+.num::before, 
+.num::after{
+    height: 2px;
+    width: 15px;
+    background-color: gray;
+    content: "";
+    display: block;
+    margin: 0.5em;
+    
+}
+.images{
+    background-color: rgb(237, 237, 237);
+}
+
+.images ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 3em 0 3em 0;
+}
+
+.images ul li {
+    padding: 0.5em;
+}
+
+.images ul li img{
+    width: 17em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+
+.left{
+    display: flex;
+    padding: 0em 3em 3em 3em;
+    border-bottom: 2px solid lightgray;
+}
+
+.left ul{
+    padding: 0em 1em 1em 1em;
+}
+
+.right{
+    display: block;
+}
+
+.right > *{
+    margin: 0em 1em 1em 1em;
+    
+}
+
+.right input, .right button{
+    padding: 1em;
+}
+
+.right button{
+    background-color: orangered;
+    color: rgb(202, 194, 194);
+    border: none;
+    border-right: 5%;
+}
+
+.right p{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.down{
+    text-align: center;
+    padding: 6em 0 3em 0;
+}

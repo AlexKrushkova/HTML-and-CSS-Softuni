@@ -1,0 +1,19 @@
+.site-wrapper{
+    max-width: 75rem;
+    margin: auto;
+}
+
+.site-header{
+
+}
+
+.site-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.site-footer{
+
+}
