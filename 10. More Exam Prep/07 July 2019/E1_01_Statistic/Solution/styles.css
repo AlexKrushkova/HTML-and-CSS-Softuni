@@ -1,0 +1,63 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 1000px;
+    height: 1000px;
+    
+    margin: 100px auto;
+}
+
+.picture{
+    background:linear-gradient(rgba(45, 91, 216, 0.7), rgba(45, 91, 216, 0.7)), url('../Solution/images/image.jpg') no-repeat;
+   
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  /* Full height */
+  height: 27%;
+
+  /* Center and scale the image nicely */   
+    background-size: 100%;
+    pointer-events: visiblePainted;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li{ 
+    margin-top: 33px;
+}
+
+i{
+    color:rgb(236, 132, 33);
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+.fa-times{
+    color: white;
+    margin: 6px 97%;
+}
+
