@@ -1,0 +1,94 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+.site{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+main{
+    margin: 50px 50px;
+}
+
+
+.text{  
+    /* position: relative; */
+    /* z-index: 1; */
+    width:  340px;
+    position: absolute;
+    margin: 30px 40px;
+}
+
+.aside-picture img{
+    width: 400px;
+    height: 500px;
+}
+ 
+.background-and-picture {
+    background-image: url("..//Solution/image/image1.png");
+    width: 400px;
+    height: 500px;
+}
+
+.text header h1{
+    text-align: center;
+    border-bottom: dotted green 2px;
+    margin-bottom: 10px;
+}
+
+.under-header{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+ul b {
+    color: green;
+}
+
+p{
+    padding-bottom: 40px; 
+}
+
+    table{
+    border-left: green 1px solid;
+    border-top: green 1px solid;
+    border-bottom: green 1px solid;
+    text-align: center;
+}
+
+th, td{
+    border-right: 1px green solid;
+    width: 100px;
+}
+
+th{
+    border-bottom: green 1px solid;
+    margin: 0 auto;
+}
+  
+
