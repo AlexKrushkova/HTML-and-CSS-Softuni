@@ -1,0 +1,243 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Styling */
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 55, 0);
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation li{
+    margin-left: 30px;
+    font-size: larger;
+}
+
+
+.search-btn{
+    display: flex;
+    align-items: center;
+}
+
+.search-btn li{
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 10px 80px;
+}
+
+.fa-search{
+    background-color: rgb(182, 175, 175);
+    padding: 12px 30px;
+}
+
+.my-account{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.my-account li {
+    margin: 0 10px;
+    font-size: larger;
+}
+
+.my-account :last-child(){
+    margin-right: 20px;
+}
+
+/* Main */
+body{
+    background-color: rgb(240, 228, 228);
+}
+
+
+.gallery{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery-images{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+
+
+.gallery-images li{
+    width: 250px;
+    height: 250px;
+}
+
+.gallery-images li img{
+    width: 100%;
+    height: 90%;
+}
+
+.gallery-images li p {
+    margin-top: 10px;
+    color: rgb(129, 137, 149);
+    font-size: larger;
+}
+
+
+.fall-collection{
+    width: 65%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.fall-collection-image{
+    width: 800px;
+    height: auto;
+}
+
+.fall-collection-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.fall-collection-info{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.fall-collection-info h1{
+    color: rgb(249, 55, 0);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.shop-now{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: rgb(249, 55, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.services{
+    width: 65%;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(202, 195, 195);
+}
+
+.services-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px;
+}
+
+.services-images li{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.services-images li img {
+    width: 100%;
+    height: 100%;
+}
+.shiping, .deals, .service-cust{
+    background-color: rgb(230, 214, 214);
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.services-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-info li h1{
+    text-align: center;
+    font-size: smaller;
+}
+
+.services-info li p{
+    margin-top: 10px;
+    color: rgb(129, 137, 149);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: smaller;
+}
+
+
+.free-shipping-info{
+    margin-left: 100px;
+}
+
+.amazing-deals-info{
+    margin-left: 50px;
+}
+
+.customer-servises-info{
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(131, 138, 148);
+}
+
+.footer-navigation, .footer-contacts{
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation li, .footer-contacts li{
+    margin: 30px 15px;
+    margin-bottom: 40px;
+}
+
+.width-footer{
+    width: 65%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.fab{
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.callBtn{
+    border: none;
+    padding: 8px 50px;
+    background-color: rgb(202, 195, 195);
+    font-size: larger;
+    border-radius: 5px;
+}
